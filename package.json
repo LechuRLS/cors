@@ -1,16 +1,13 @@
 {
-  "name": "rickapicors",
+  "name": "rick-morty-api-node",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.7",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
     "express": "^4.18.2"
   }
 }
